@@ -3,6 +3,7 @@
     height: 200px;
 }
 .icon{
-    width: 400px;
-    height: 300px;
+    width: 350px;
+    height: 270px;
+    border-radius: 10%;
 }
