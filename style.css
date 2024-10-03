@@ -4,17 +4,27 @@
     border-radius: 10%;
     opacity: 90%;
 }
+
+#image-logo-resize{
+    width: 150px;
+    height: 150px;
+    /* border-radius: 10%; */
+    /* opacity: 100%; */
+}
 .icon{
     width: 350px;
     height: 270px;
     border-radius: 10%;
-
 }
+
 header{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 200px 400px ;
+    grid-template-rows: 180px 20%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: left;
     font-size:xx-large;
-    color:rgb(103, 102, 102);
+    color: rgb(103, 102, 102);
 }
 
 .wrapper{
@@ -42,7 +52,7 @@ header{
 }
 footer{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
     font-size:xx-small;
     color:darkgray;
+    /* text-align: center; */
 }
