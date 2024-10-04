@@ -18,6 +18,8 @@
 }
 
 header{
+    display: flex;
+    justify-content: center;
     text-align: center;
     display: grid;
     grid-template-columns: 200px 400px ;
@@ -28,11 +30,14 @@ header{
 }
 
 .wrapper{
+    display: flex;
+    justify-content: center;
     display: grid;
     grid-template-columns: 400px 400px;
     grid-template-rows: 300px 450px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+    padding: 20px;
 }
 
 .team_description{
