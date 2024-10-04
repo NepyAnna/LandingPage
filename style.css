@@ -14,6 +14,7 @@
     width: 350px;
     height: 270px;
     border-radius: 10%;
+    border: 2px solid;
 }
 
 header{
@@ -49,6 +50,21 @@ header{
 
 .member {
     color: rgb(103, 102, 102);
+}
+
+.name {
+    font-size: 200%;
+    color: rgb(103, 102, 102);
+}
+
+.email {
+    font-size: 100%;
+    color: rgb(106, 147, 125);
+}
+
+.social {
+    font-size: 100%;
+    color: rgb(122, 121, 189);
 }
 
 footer{
